@@ -1356,7 +1356,7 @@ input[type="text"] {
     }
     
     .bar[data-background="image1"]::before {
-      background-image: url(/images/BGskill/BG1.png);
+      background-image: url(../images/BGskill/BG1.png);
     }
     
     .bar[data-background="image2"]::before {
