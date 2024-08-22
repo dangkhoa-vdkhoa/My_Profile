@@ -1360,15 +1360,15 @@ input[type="text"] {
     }
     
     .bar[data-background="image2"]::before {
-      background-image: url(/images/BGskill/BG2.png);
+      background-image: url(../images/BGskill/BG2.png);
     }
     
     .bar[data-background="image3"]::before {
-      background-image: url(/images/BGskill/BG3.png);
+      background-image: url(../images/BGskill/BG3.png);
     }
     
     .bar[data-background="image4"]::before {
-      background-image: url(/images/BGskill/BG4.png);
+      background-image: url(../images/BGskill/BG4.png);
     }
     
     .percentage {
