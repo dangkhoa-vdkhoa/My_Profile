@@ -63,17 +63,8 @@
 			<div class="colorlib-table-cell js-fullheight">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="form-group">
-							<input type="text" class="form-control" id="search"
-								placeholder="Enter any key to search...">
-							<button type="submit" class="btn btn-primary"><i class="icon-search3"></i></button>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
 						<ul>
-							<li><a href="index.html">Home</a></li>
+							<li ><a href="index.html">Home</a></li>
 							<li><a href="services.html">Services</a></li>
 							<li><a href="work.html">Projects</a></li>
 							<li><a href="blog.html">Blog</a></li>
@@ -84,21 +75,21 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="head-title">Works</h2>
-						<a href="images/work-1.jpg" class="gallery image-popup-link text-center"
-							style="background-image: url(images/work-1.jpg);">
+						<h2 class="head-title">Projects</h2>
+						<a href="images/Q65Opb.jpeg" class="gallery image-popup-link text-center"
+							style="background-image: url(images/Q65Opb.jpeg);">
 							<span><i class="icon-search3"></i></span>
 						</a>
-						<a href="images/work-2.jpg" class="gallery image-popup-link text-center"
-							style="background-image: url(images/work-2.jpg);">
+						<a href="images/me_img/GameMa1.png" class="gallery image-popup-link text-center"
+							style="background-image: url(images/me_img/GameMa1.png);">
 							<span><i class="icon-search3"></i></span>
 						</a>
-						<a href="images/work-3.jpg" class="gallery image-popup-link text-center"
-							style="background-image: url(images/work-3.jpg);">
+						<a href="images/RUNimg.png" class="gallery image-popup-link text-center"
+							style="background-image: url(images/RUNimg.png);">
 							<span><i class="icon-search3"></i></span>
 						</a>
-						<a href="images/work-4.jpg" class="gallery image-popup-link text-center"
-							style="background-image: url(images/work-4.jpg);">
+						<a href="images/me_img/Appdemo1.png" class="gallery image-popup-link text-center"
+							style="background-image: url(images/me_img/Appdemo1.png);">
 							<span><i class="icon-search3"></i></span>
 						</a>
 					</div>
@@ -148,39 +139,56 @@
 									<li><span><i class="icon-map5"></i></span>160 Song Hanh Street, District 12, Ho Chi
 										Minh City</li>
 									<li><span><i class="icon-phone4"></i></span>(+84) 386826381</li>
-									<li><span><i class="icon-envelope2"></i></span><a href="#"
+									<li><span><i class="icon-envelope2"></i></span><a href="mailto:Dangkhoavo16@gmail.com?
+										subject=Xin%20chào%20Võ%20Đăng%20Khoa&
+										body=Tôi%20tên%20[Your%20Name]%20
+										%0AEmail%20này%20được%20gửi%20từ%20trang%20Web%20của%20bạn.%0A%0A"
 											style="color: darkblue;"><b>Dangkhoavo16@gmail.com</b></a></li>
 									<li><span><i class="icon-globe3"></i></span><a href="index.html"
 											style="color: darkblue; font-size: 15px;"><b>dangkhoa-vdkhoa.github.io/my_Profile</b></a>
 									</li>
 								</ul>
 							</div>
+
 							<div class="col-md-7 col-md-push-1 animate-box">
 								<div class="row">
-									<div class="col-md-12">
+									<form id="ContactlForm"
+										action="https://script.google.com/macros/s/AKfycbw4bEwkYufO2R1UuW4cgbHVgmj6-Djw1Ak-EgnqDNFp_o0KUBcwHG0yJf4bNBFiFtej/exec"
+										method="POST">
+										<div class="col-md-12">
+											<div class="form-group">
+												<textarea name="message" class="form-control" id="" cols="30" rows="7"
+													style="border-radius: 20px;" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" name="name" class="form-control" placeholder="Name"
+													style="border-radius: 10px;">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<input type="text" name="email" class="form-control" placeholder="Email"
+													style="border-radius: 10px;">
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="form-group">
+												<input type="submit" value="Send Message" style="border-radius: 10px;"
+													class="btn btn-light btn-custom">
+											</div>
+										</div>
+									</form>
+									<div class="col-md-9">
 										<div class="form-group">
-											<textarea name="" class="form-control" id="" cols="30" rows="7"
-												placeholder="Message"></textarea>
+											<div id="responseMessage" style="display:none; text-align: center;"></div>
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<input onclick="Noti()" type="submit" value="Send Message"
-												class="btn btn-light">
-										</div>
-									</div>
+									
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
@@ -190,87 +198,6 @@
 		<footer>
 			<div id="footer">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-4 col-pb-sm">
-							<div class="row">
-								<div class="col-md-10">
-									<h2>Let's Talk</h2>
-									<p>Rất vui vì bạn đã quan tâm <br>Hãy liên hệ lại với tôi.</p>
-									<p><a href="mailto:Dangkhoavo16@gmail.com?
-											subject=Xin%20chào%20Võ%20Đăng%20Khoa&
-											body=Tôi%20tên%20[Your%20Name]%20
-											%0AEmail%20này%20được%20gửi%20từ%20trang%20Web%20của%20bạn.%0A%0A">
-											Dangkhoavo16@gmail.com</a></p>
-									<p class="colorlib-social-icons">
-										<a href="https://www.facebook.com/vdk.khoa.04" onclick="Notifb()">
-											<script>function Notifb() { alert("Bạn có chắc muốn chuyển tab ?"); }</script>
-											<i class="fab fa-facebook"></i>
-										</a>
-										<a onclick="Noti()">
-											<script>function Noti() { alert("Chưa có liên kết cho đường dẫn này"); }</script>
-											<i class="fab fa-twitter"></i>
-										</a>
-										<a href="https://github.com/dangkhoa-vdkhoa" onclick="Notifb()"><i
-												class="fab fa-github"></i></a>
-										<a href="https://khoavo.itch.io/" onclick="Notifb()"><i
-												class="fab fa-itch-io"></i></a>
-									</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-pb-sm">
-							<h2 style="text-align: center;">Mini Game</h2>
-							<div id="imageContainer" style="text-align: center;">
-								<img id="image1" src="images/Minigame/imgGame1.png"
-									style="width: 50px; height: 50px; margin: 5px;">
-								<img id="image2" src="images/Minigame/imgGame2.png"
-									style="width: 50px; height: 50px; margin: 5px;">
-								<img id="image3" src="images/Minigame/imgGame3.png"
-									style="width: 50px; height: 50px; margin: 5px;">
-							</div>
-							<div id="gameArea" style="position: relative; height: 300px; background-color: #f0f0f0;">
-								<div id="clickBox"
-									style="position: absolute; width: 50px; height: 50px; display: none; cursor: pointer;">
-								</div>
-								<!-- Green boxes will be added dynamically -->
-							</div>
-							<p style="text-align: center;">Score: <span id="score">0</span></p>
-							<p style="text-align: center;">Cycles: <span id="cycleCount">0</span></p>
-							<div id="gameDescriptionModal" class="modal">
-								<div class="modal-content">
-									<span class="close">&times;</span>
-									<h2>Mini Game Description</h2>
-									<p>Welcome to the Mini Game!</p>
-									<p>Trong trò chơi này, bạn cần nhấp vào ô mục tiêu để ghi điểm.
-										Ô mục tiêu được tô sáng bằng một trong ba hình ảnh hiển thị bên dưới khu vực trò
-										chơi.
-										Năm ô còn lại là hai hình ảnh còn lại sẽ xuất hiện trong khu vực trò chơi và mục
-										tiêu của bạn
-										là nhấp vào ô được hiển thị tương ứng với ô đã được chọn bên trên .</p>
-									<p>Trò chơi kết thúc khi bạn đạt 20 điểm hoặc không đạt được trong vòng 50 chu kỳ.
-										Nếu bạn nhấp vào ô sai 5 lần, bạn cũng sẽ thua trò chơi. Chúc may mắn!</p>
-								</div>
-							</div>
-							<button onclick="startGame()" class="btn btn-primary btn-custom"
-								style="display: block; margin: 10px auto;">Start Game</button>
-						</div>
-						<div class="col-md-4 col-pb-sm">
-							<h2 style="text-align: center;">Contact Method</h2>
-							<p style="text-align: center;"><i>IF YOU WANT ME TO CONTACT YOU</i></p>
-							<div class="subscribe text-center">
-								<div class="form-group">
-									<form id="emailForm"
-										action="https://script.google.com/macros/s/AKfycbyMz0EXCJlJpUrDeWN-DbCkMdOyjtkdftbBOzQvFlu56H6n1ZqKqvNwY_59nCUutKaY/exec"
-										method="POST">
-										<input type="text" name="email" class="form-control text-center"
-											placeholder="Enter Email address or URL" required>
-										<input type="submit" value="send" class="btn btn-primary btn-custom">
-									</form>
-									<div id="responseMessage" style="display:none; margin-top:10px;"></div>
-								</div>
-							</div>
-						</div>
-					</div>
 					<div class="row">
 						<div class="col-md-12 text-center">
 							<p>
@@ -286,48 +213,13 @@
 				</div>
 			</div>
 		</footer>
-		<style>
-			/* Modal styles */
-			.modal {
-				display: none;
-				position: fixed;
-				z-index: 1;
-				left: 0;
-				top: 0;
-				width: 100%;
-				height: 100%;
-				overflow: auto;
-				background-color: rgb(0, 0, 0);
-				background-color: rgba(0, 0, 0, 0.4);
-			}
 
-			.modal-content {
-				background-color: #fefefe;
-				margin: 15% auto;
-				padding: 20px;
-				border: 1px solid #888;
-				width: 80%;
-			}
-
-			.close {
-				color: #aaa;
-				float: right;
-				font-size: 28px;
-				font-weight: bold;
-			}
-
-			.close:hover,
-			.close:focus {
-				color: black;
-				text-decoration: none;
-				cursor: pointer;
-			}
-		</style>
 
 	</div>
 
 	<!-- Thông báo gửi đến email -->
 	<script src="js/NotiEmail.js"></script>
+	<script src="js/Contact.js"></script>
 
 	<script src="js/Minigame.js"></script>
 	<!-- jQuery -->

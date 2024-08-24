@@ -14,13 +14,13 @@ function startGame() {
 
         modal.style.display = 'block';
 
-        span.onclick = function() {
+        span.onclick = function () {
             modal.style.display = 'none';
             localStorage.setItem('modalShown', 'true');
             initializeGame();
         };
 
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             if (event.target === modal) {
                 modal.style.display = 'none';
                 localStorage.setItem('modalShown', 'true');
@@ -57,7 +57,7 @@ function spawnBoxes() {
     const clickBox = document.getElementById('clickBox');
     clickBox.style.backgroundImage = `url(${document.getElementById(greenImage).src})`;
     clickBox.style.backgroundSize = 'cover';
-    clickBox.onclick = function() {
+    clickBox.onclick = function () {
         score++;
         document.getElementById('score').innerText = score;
 
@@ -79,7 +79,7 @@ function spawnBoxes() {
         greenBox.style.backgroundSize = 'cover';
         gameArea.appendChild(greenBox);
 
-        greenBox.onclick = function() {
+        greenBox.onclick = function () {
             gameOver('lose');
         };
     }
